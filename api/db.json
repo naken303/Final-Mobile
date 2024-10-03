@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "username": "admin",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "user_id": 2,
+      "username": "user1",
+      "password": "password123",
+      "role": "user"
+    }
+  ],
+  "books": [
+    {
+      "book_id": "bk101",
+      "title": "The Great Gatsbysaa",
+      "author": "F. Scott Fitzgerald",
+      "description": "book-description",
+      "isbn": "1742-367",
+      "catagory": "Fiction",
+      "cover_image": "background_library.png",
+      "copies": [
+        {
+          "book_copy_id": "bk101a01",
+          "status": "available",
+          "borrowed_by_user_id": null,
+          "due_date": null,
+          "return_date": null
+        },
+        {
+          "book_copy_id": "bk101a02",
+          "status": "borrowed",
+          "borrowed_by_user_id": 2,
+          "due_date": "2024-09-28",
+          "return_date": "2024-09-10"
+        }
+      ]
+    },
+    {
+      "book_id": "bk102",
+      "title": "1984",
+      "author": "George Orwelll",
+      "description": "book-description",
+      "isbn": "1742-366",
+      "catagory": "Dystopian",
+      "cover_image": "default.jpg",
+      "copies": [
+        {
+          "book_copy_id": "bk102a01",
+          "status": "borrowed",
+          "borrowed_by_user_id": 2,
+          "due_date": "2024-10-03T00:00:00.000",
+          "return_date": "2024-10-05T00:00:00.000"
+        }
+      ]
+    },
+    {
+      "book_id": "bk103",
+      "title": "51eee",
+      "author": "eee",
+      "description": "eeee",
+      "isbn": "eee",
+      "catagory": "eeee",
+      "cover_image": "default.jpg",
+      "copies": [
+        {
+          "book_copy_id": "bk103a01",
+          "status": "available",
+          "borrowed_by_user_id": null,
+          "due_date": null,
+          "return_date": null
+        },
+        {
+          "book_copy_id": "bk103a02",
+          "status": "available",
+          "borrowed_by_user_id": null,
+          "due_date": null,
+          "return_date": null
+        },
+        {
+          "book_copy_id": "bk103a03",
+          "status": "available",
+          "borrowed_by_user_id": null,
+          "due_date": null,
+          "return_date": null
+        }
+      ]
+    }
+  ]
+}
